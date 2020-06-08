@@ -11,8 +11,8 @@ the sum of N over all test cases does not exceed 3⋅105
 int main() {
 	int testCases;
 	cin>>testCases;
-	if(testCases>=1 && testCases <=100){
-	   for(int t = 0; t<testCases; t++){
+	
+	   while(testCases--){
 	    	string str;
 	    	cin>>str;
 	    	int n = str.length();
@@ -25,7 +25,7 @@ int main() {
 	    	}
 		cout<<endl;
 		}
-	}
+	
 	return 0;
 }
 
