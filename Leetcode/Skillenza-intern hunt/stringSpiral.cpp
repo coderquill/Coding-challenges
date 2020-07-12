@@ -1,3 +1,30 @@
+/*Given half-height h, and a string s output a rhombus pattern with a spiral in it formed using the characters in the string. Direction of the spiral is clockwise inward.
+2
+6 10
+9876543210
+3 5
+abcde 
+          4           
+        5 5 3         
+      6 6 0 4 2       
+    7 7 1 9 9 3 1     
+  8 8 2 0 2 8 8 2 0   
+9 9 3 1 3 9 1 7 7 1 9 
+  0 4 2 4 0 6 6 0 8   
+    1 5 3 5 5 9 7     
+      2 6 4 8 6       
+        3 7 5         
+          4           
+
+    c     
+  b e d   
+a d c a e 
+  c b a   
+    b   
+
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
